@@ -1,6 +1,5 @@
 import 'dotenv/config.js';
 
-
 export const cfg = {
     email: process.env.SUBSTACK_EMAIL?.trim(),
     publication: process.env.SUBSTACK_PUBLICATION?.trim(),
