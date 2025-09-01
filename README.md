@@ -40,13 +40,13 @@ NAV_TIMEOUT_MS=45000 # Navigation timeout in milliseconds
 * Prepare your topics: Add your content topics to the data/topics.csv file.
 
 * Run the script: Execute the following command in your terminal:
-- node index.js
+node index.js
 
 * Puppeteer will then automate the following steps:
-- Open Substack in a browser.
-- Reuse a stored login session.
-- Generate post content using the Gemini API for each topic.
-- Create a draft or publish the post based on your PUBLISH_MODE setting.
+Open Substack in a browser.
+Reuse a stored login session.
+Generate post content using the Gemini API for each topic.
+Create a draft or publish the post based on your PUBLISH_MODE setting.
 
 **Notes**
 * First-Time Login: The first time you run the tool, you'll need to manually log in to Substack in the browser window that opens. The session will then be stored and reused for all future runs.
