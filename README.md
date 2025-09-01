@@ -27,16 +27,23 @@ npm install
 Create a .env file in the root directory to configure the script.
 
 SUBSTACK_EMAIL=your_email@example.com # Your Substack email
+
 SUBSTACK_PASSWORD=your_password # Your Substack password
+
 SUBSTACK_PUBLICATION=yourblog.substack.com # Your Substack publication URL
+
 GEMINI_API_KEY=your_gemini_api_key # Your Gemini API key
 
 CSV_PATH=./data/topics.csv # Path to your topics CSV file
+
 HEADLESS=false # true | false (false opens a visible browser window)
+
 PUBLISH_MODE=draft # draft | publish
+
 POST_VISIBILITY=public # public | subscribers
 
 BROWSER_EXECUTABLE_PATH= # Leave empty to use Puppeteer's bundled Chromium
+
 NAV_TIMEOUT_MS=45000 # Navigation timeout in milliseconds
 
 **Usage**
