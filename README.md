@@ -1,28 +1,26 @@
-**Substack Automation Tool**
+# Substack Automation Tool
 This project automates the creation and publication of posts on Substack using Puppeteer for browser automation and the Gemini API for AI-powered content generation. Topics are sourced from a CSV or Excel file, streamlining the entire workflow.
 
-**Features**
-Automated Substack Posting: Quickly create and publish new posts.
-AI-Generated Content: Uses the Gemini API to generate post titles, subtitles, and content.
-Customizable Visibility: Set posts to be visible to the public or subscribers only.
-Flexible Execution: Run the script in headless mode (invisible browser) or with a visible browser window.
-Secure Session-Based Login: Bypasses Substack's bot detection by reusing a stored login session.
+# Features
+* Automated Substack Posting: Quickly create and publish new posts.
+* AI-Generated Content: Uses the Gemini API to generate post titles, subtitles, and content.
+* Customizable Visibility: Set posts to be visible to the public or subscribers only.
+* Flexible Execution: Run the script in headless mode (invisible browser) or with a visible browser window.
+* Secure Session-Based Login: Bypasses Substack's bot detection by reusing a stored login session.
 
-**Installation**
+# Installation
 To get started, clone the repository and install the necessary dependencies.
 
-Bash
+**Clone the repository**   
 
-# Clone the repository
-
-git clone https://github.com/your-username/substack-automation.git
+git clone https://github.com/falkeetsingh/substack-automation.git
 cd substack-automation
 
-# Install dependencies
+**Install dependencies**   
 
 npm install
 
-**Environment Variables**
+**Environment Variables**   
 Create a .env file in the root directory to configure the script.
 
 SUBSTACK_EMAIL=your_email@example.com # Your Substack email
@@ -38,7 +36,7 @@ POST_VISIBILITY=public # public | subscribers
 BROWSER_EXECUTABLE_PATH= # Leave empty to use Puppeteer's bundled Chromium
 NAV_TIMEOUT_MS=45000 # Navigation timeout in milliseconds
 
-▶️ Usage
+**Usage**  
 Prepare your topics: Add your content topics to the data/topics.csv file.
 
 Run the script: Execute the following command in your terminal:
