@@ -1,0 +1,7 @@
+# Environment variables
+.env
+
+# session data folder
+puppeteer_profile/
+
+node_modules/       
